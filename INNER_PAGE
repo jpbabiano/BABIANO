@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Success Page Form</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-image: url(https://i.pinimg.com/564x/9b/47/29/9b4729a7278e8362eede431e5942e95c.jpg);
+      background-size: cover;
+    }
+
+    .container {
+      max-width: 400px;
+      margin: 100px auto;
+      padding: 50px;
+      background-color: #D3D3D3;
+      border-radius: 5px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+
+    .success-icon {
+      text-align: center;
+      color: #54b25b;
+      font-size: 60px;
+      margin-bottom: 20px;
+    }
+
+    .success-text {
+      text-align: center;
+      font-size: 20px;
+      margin-bottom: 20px;
+    }
+
+    .success-button {
+      display: block;
+      margin: 0 auto;
+      padding: 5px 10px;
+      background-color: #54b25b;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 3px;
+      transition: background-color 0.3s;
+
+    }
+
+    .success-button:hover {
+      background-color: #3c8745;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="success-icon">&#10004;</div>
+    <div class="success-text">Form submitted successfully!</div>
+    <a href="#" class="success-button">Back to Home</a>
+  </div>
+</body>
+</html>
